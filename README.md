@@ -13,6 +13,7 @@ This module currently fixes:
 Installation
 ------------
 
-1. Make sure you have **only** given your app the ID `ng-app` (`<html id="ng-app" ng-app="my-app">`) when in IE7 by using conditional HTML comments.
-2. Include this module in to your app `angular.module('my-app', ['ie7-support'])`.
+1. Either download directly from here or fetch with bower `bower install angular-ie7-support`.
+2. Make sure you have **only** given your app the ID `ng-app` (`<html id="ng-app" ng-app="my-app">`) when in IE7 by using conditional HTML comments.
+3. Include this module in to your app `angular.module('my-app', ['ie7-support'])`.
 
