@@ -14,6 +14,7 @@ Installation
 ------------
 
 1. Either download directly from here or fetch with bower `bower install angular-ie7-support`.
-2. Make sure you have **only** given your app the ID `ng-app` (`<html id="ng-app" ng-app="my-app">`) when in IE7 by using conditional HTML comments.
-3. Include this module in to your app `angular.module('my-app', ['ie7-support'])`.
+2. Include a version of jQuery that supports IE7. You may include this conditionally just for IE7.
+3. Make sure you have **only** given your app the ID `ng-app` (`<html id="ng-app" ng-app="my-app">`) when in IE7 by using conditional HTML comments.
+4. Include this module in to your app `angular.module('my-app', ['ie7-support'])`.
 
