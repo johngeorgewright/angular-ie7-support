@@ -15,9 +15,8 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "Gruntfile.coffee",
+    "package.json",
+    "node_modules"
   ]
 }
