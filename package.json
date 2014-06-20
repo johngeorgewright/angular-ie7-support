@@ -1,6 +1,6 @@
 {
   "name": "angular-ie7-support",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IE7 support module for angular",
   "main": "angular-ie7-support.js",
   "repository": {
