@@ -1,5 +1,5 @@
 {
-  "name": "angular-ie7",
+  "name": "angular-ie7-support",
   "version": "0.0.0",
   "description": "IE7 support module for angular",
   "main": "angular-ie7-support.js",
