@@ -1,6 +1,6 @@
 (function (ng) {
 
-  function switchSce(ie7Config, $sceProdiver) {
+  function switchSce(ie7Config, $sceProvider) {
     $sceProvider.enabled(!ie7Config.on);
   }
 
