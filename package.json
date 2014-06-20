@@ -1,0 +1,27 @@
+{
+  "name": "angular-ie7",
+  "version": "0.0.0",
+  "description": "IE7 support module for angular",
+  "main": "angular-ie7-support.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johngeorgewright/angular-ie7-support.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johngeorgewright/angular-ie7-support/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "ie",
+    "ie7"
+  ],
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-http": "^1.4.0"
+  }
+}
