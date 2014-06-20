@@ -11,12 +11,12 @@
 
     if (ie7Config) {
       $animate.addClass = function (element, className, done) {
-        angular.element(element).addClass(className);
+        ng.element(element).addClass(className);
         async(done);
       };
 
       $animate.removeClass = function (element, className, done) {
-        angular.element(element).removeClass(className);
+        ng.element(element).removeClass(className);
         async(done);
       };
     }
