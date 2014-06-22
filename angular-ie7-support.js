@@ -9,7 +9,7 @@
       return fn && $$asyncCallback(fn);
     }
 
-    if (ie7Config) {
+    if (ie7Config.on) {
       $animate.addClass = function (element, className, done) {
         ng.element(element).addClass(className);
         async(done);
