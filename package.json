@@ -11,7 +11,8 @@
     "url": "https://github.com/johngeorgewright/angular-ie7-support/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start test/unit.conf.js --no-auto-watch --single-run",
+    "watch-test": "karma start test/unit.conf.js",
     "postinstall": "bower install"
   },
   "keywords": [
