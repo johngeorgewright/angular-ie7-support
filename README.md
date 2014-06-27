@@ -18,3 +18,12 @@ Installation
 3. Make sure you have **only** given your app the ID `ng-app` (`<html id="ng-app" ng-app="my-app">`) when in IE7 by using conditional HTML comments.
 4. Include this module in to your app `angular.module('my-app', ['ie7-support'])`.
 
+Tests
+-----
+
+1. Install Karma: `[sudo] npm i -g karma-cli`
+2. Install Bower: `[sudo] npm i -g bower`
+3. Install components: `npm i`
+4. Run a single test: `npm test`
+5. Or watch your files and run the tests when they change: `npm run watch-test`
+

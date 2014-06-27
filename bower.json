@@ -18,5 +18,9 @@
     "Gruntfile.coffee",
     "package.json",
     "node_modules"
-  ]
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.2.18",
+    "jasmine-sinon": "~0.3.0"
+  }
 }
